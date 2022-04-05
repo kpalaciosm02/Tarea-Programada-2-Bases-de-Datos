@@ -2,9 +2,9 @@
 {
     public class Departamento
     {
-        public string IdDepartamento { get; set; }
+        public int IdDepartamento { get; set; }
         public string Nombre { get; set; }
-        public Departamento(string pIdDepartamento, string pNombre)
+        public Departamento(int pIdDepartamento, string pNombre)
         {
             IdDepartamento = pIdDepartamento;
             Nombre = pNombre;

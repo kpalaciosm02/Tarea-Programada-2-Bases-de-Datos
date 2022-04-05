@@ -3,8 +3,8 @@
     public class Puesto
     {
         public string Nombre { get; set; }
-        public string SalarioXHora { get; set; }
-        public Puesto(string pNombre, string pSalarioXHora)
+        public float SalarioXHora { get; set; }
+        public Puesto(string pNombre, float pSalarioXHora)
         {
             Nombre = pNombre;
             SalarioXHora = pSalarioXHora;

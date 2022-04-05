@@ -3,12 +3,12 @@
     public class Empleado
     {
         public string Nombre { get; set; }
-        public string IdTipoIdentificacion { get; set; }
-        public string ValorDocumentoIdentificacion { get; set; }
-        public string IdDepartamento { get; set; }
+        public int IdTipoIdentificacion { get; set; }
+        public int ValorDocumentoIdentificacion { get; set; }
+        public int IdDepartamento { get; set; }
         public string Puesto { get; set; }
         public string FechaNacimiento { get; set; }
-        public Empleado(string pNombre, string pIdTipoId, string pValorDocId, string pIdDepartamento, string pPuesto, string pFechaNacimiento)
+        public Empleado(string pNombre, int pIdTipoId, int pValorDocId, int pIdDepartamento, string pPuesto, string pFechaNacimiento)
         {
             Nombre = pNombre;
             IdTipoIdentificacion = pIdTipoId;
